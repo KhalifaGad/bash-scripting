@@ -8,3 +8,5 @@ echo
 ANOTHER_RANDOM_WORD=$( grep -E '\w+' /usr/share/dict/words | head -$RANDOM | tail -1 )
 echo $ANOTHER_RANDOM_WORD
 
+# -E to make grep use regex.
+
